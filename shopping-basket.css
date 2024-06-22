@@ -1,0 +1,112 @@
+#top-nav h2{
+  margin: 0;
+}
+#top-nav ul li img{
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  nav{
+    height: 20%;
+  }
+  #top-nav{
+    justify-content: start;
+    width: 100%;
+  }
+  #top-nav h2{
+    margin-right: 60%;
+    margin-left: 10px;
+  }
+  #bottom-nav{
+    display: none;
+  }
+}
+#hero-section{
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 700px;
+  padding-top: 4%;
+}
+#cart{
+  width: 80%;
+  height: 66%;
+  margin: auto;
+}
+#cart h1{
+  font-size: 30px;
+  margin-left: 15px;
+  padding-bottom: 35px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: solid 1px rgb(232, 231, 231);
+}
+
+thead{
+  border-bottom: solid 1px rgb(232, 231, 231);
+}
+
+td {
+  padding: 20px;
+  vertical-align: top;
+}
+
+.image-cell {
+  width: 50%;
+}
+
+.image-cell img{
+   float: left;
+}
+.responsive-img {
+  width: 80px;
+  height: 100px;
+  margin-right: 10px;
+}
+.text-header{
+ font-size: 20px;
+}
+
+.total{
+  width: 40%;
+  text-align: right;
+  float: right;
+  margin-top: 30px;
+}
+.total button{
+  background-color:  rgba(9, 9, 51, 0.847);
+  color: white;
+}
+.total p{
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  #cart h1{
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  #cart{
+    width: 100%;
+    height: 100%;
+  }
+  thead{
+    display: none;
+  }
+  .total{
+    height: 21%;
+    width: 100%;
+    float: none;
+  }
+  .total h2{
+    font-size: 26px;
+    color:  rgba(9, 9, 51, 0.847);
+  }
+  .total button{
+    height: 35%;
+    width: 95%;
+    margin-right: 10px;
+  }
+  .image-cell img{
+    float: none;
+  }
+}

@@ -1,0 +1,366 @@
+#ad{
+  background-color:  rgba(9, 9, 51, 0.847);
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding-right: 10px;
+  justify-content: end;
+  gap: 35%;
+  align-items: center;
+}
+#ad h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+#ad i{
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #ad{
+    height: 50px;
+    padding: 10px;
+  }
+}
+#bottom-nav h2 a{
+  font-size: 25px;
+  font-weight: bold;
+}
+#bottom-nav ul li img{
+  padding-left: 10px;
+}
+#shopping-basket a img{
+  margin-right: 10px;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+@media (max-width: 768px) {
+  #bottom-nav ul li img{
+    padding-left: 0px;
+    display: block;
+  }
+  #bottom-nav h2{
+    margin-bottom: 10px;
+  }
+}
+#hero-section{
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero-section div{
+  width: 35%;
+  margin-right: 8%;
+}
+#product-about{
+  height: 86%;
+}
+#product-image{
+  height: 86%;
+  background: url('./images/Product Image.png') no-repeat center bottom/cover;
+}
+#product-about div{
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+}
+#product-about div p, table td{
+  font-size: 16px;
+}
+#product-about h1{
+  font-size: 30px;
+}
+#product-name{
+  border-bottom: solid 1px rgb(232, 231, 231);
+}
+table{
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+table td{
+ text-align: justify;
+}
+td:first-child {
+  border-right:  solid 1px rgb(232, 231, 231); 
+}
+td:nth-child(2), td:last-child,#Quantity-num {
+  text-align: center;
+}
+td:last-child{
+  border-left:  solid 1px rgb(232, 231, 231); 
+}
+#Quantity-num{
+  background-color:#f6f6f6;
+  width: 20%;
+  height: 8%;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+#add-to-cart{
+  width: 24%;
+  background-color:  rgba(9, 9, 51, 0.847);
+  color: white;
+}
+#favorites{
+  background-color:#f6f6f6;
+}
+button{
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  #hero-section{
+    flex-direction: column;
+    height: 72rem;
+  }
+  #hero-section div{
+    width: 100%;
+    margin: 0;
+  }
+  #product-image{
+    height: 55%;
+  }
+  #product-name h1{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  #product-about div{
+    height: 22%;
+    padding: 10px;
+  }
+  #product-about div p{
+    font-size: 20px;
+  }
+  #hero-section h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  table{
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+  tr,td{
+    padding-left: 10px;
+  }
+  #heading-one{
+    padding: 10px;
+    border-bottom: solid 1px rgb(232, 231, 231);
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  #Quantity-num{
+    width: 95%;
+    height: 50px;
+    margin: auto;
+  }
+  #button-holder{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #button-holder button{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 97%;
+    height: 50px;
+  }
+}
+
+#listings{
+  padding-top: 4%;
+  height: 650px;
+  padding-bottom: 30px;
+}
+.swiper{
+  width: 100%;
+  height: 80%;
+}
+
+.swiper .swiper-wrapper{
+  margin: auto;
+  width: 89%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev,
+.swiper .swiper-scrollbar {
+  display: none;
+}
+
+.swiper .swiper-slide{
+  width: 24%;
+}
+
+#large{
+  width: 48%;
+}
+
+#listings h1 {
+  font-size: 25px;
+  margin-left: 6.5%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .swiper .swiper-button-next,
+  .swiper .swiper-button-prev,
+  .swiper .swiper-scrollbar {
+    display: block;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .swiper .swiper-wrapper{
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  div.swiper-button-next, div.swiper-button-prev {
+    top: 50%
+  }
+}
+
+#features h2{
+  font-size: 25px;
+}
+#mail-sign-up{
+  width: 100%;
+  height: 500px;
+  background-image: none;
+  display: flex;
+}
+#mail-sign-up div{
+  width: 50%;
+  height: 100%;
+}
+#bg{
+  background: url('./images/Image club.png') no-repeat center bottom/cover;
+}
+#join{
+  color: black;
+}
+#join h2{
+  font-size: 30px;
+  margin-top: 10%;
+}
+#join h2, #text,#join input{
+  margin-left: 10%;
+}
+#join input, #join button{
+  margin-top: 20%;
+}
+#text{
+  width: 60%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#mail-sign-up input{
+  height: 10%;
+  width: 50%;
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+}
+#mail-sign-up button{
+  background-color: rgba(9, 9, 51, 0.847);
+  color: white;
+  width: 20%;
+  height: 10%;
+  position: relative;
+  right: 17px;
+}
+#mail-sign-up input::placeholder{
+  color: rgb(157, 156, 156);
+  padding: 10px;
+  font-size: 15px;
+}
+#contact-div h2 a{
+  font-size: 25px;
+  color: white;
+}
+#contact-div p{
+  font-size: 16px;
+}
+.socials{
+  margin-bottom: 55px;
+}
+
+@media (max-width: 768px) {
+  #mail-sign-up{
+    flex-direction: column;
+    height: 800px;
+  }
+  #mail-sign-up div{
+    width: 100%;
+    height: 50%;
+  }
+  #join h2{
+    width: 98%;
+    font-size: 23px;
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  #text{
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+  footer{
+    height: 600px;
+  }
+  .socials{
+    display: block;
+  }
+  .footer-list:nth-child(1),
+  .footer-list:nth-child(2){
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+  }
+  .footer-list:nth-child(3){
+    width: 50%;
+    padding: 0;
+  }
+  #contact-div{
+    width: 50%;
+  }
+  .socials{
+    width: 33.5%;
+    height: 25%;
+    margin-top: 22%;
+  }
+  .socials i{
+    font-size: 27px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+}

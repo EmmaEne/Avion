@@ -1,0 +1,177 @@
+nav{
+  height: 170px;
+}
+#top-nav{
+  justify-content: space-between;
+  border: none;
+}
+#top-nav h2{
+  margin: 0;
+}
+#top-nav h2 a{
+  font-size: 25px;
+}
+#top-nav ul li a{
+  padding-left: 25px;
+  position: relative;
+  bottom: 5px;
+}
+#top-nav ul li img{
+  margin-left: 10px;
+}
+#bottom-nav{
+  background-color: #f9f9f9;
+  height: 60px;
+}
+#bottom-nav h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+#bottom-nav ul li{
+  padding-left: 20px;
+}
+#all-products{
+  display: none;
+}
+@media (max-width: 768px) {
+  #ad{
+    padding: 10px;
+  }
+  #ad h3{
+    width: 100%;
+  }
+  #top-nav{
+    padding: 10px;
+    width: 100%;
+    flex-direction: row;
+  }
+  .fa-bars{
+    margin-top: 10px;
+  }
+  #bottom-nav .visible-mb, #bottom-nav #all-products{
+    display: inline-block;
+    padding: 0; 
+  }
+}
+#view-products{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#view-products h1{
+  font-size: 32px;
+  width: 45%;
+}
+#view-products button{
+  width: 15%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.article div{
+  width: 40%;
+}
+@media (max-width: 768px) {
+  #view-products{
+    height: 400px;
+    flex-direction: column;
+  }
+  #view-products h1{
+    width: 90%;
+  }
+  #view-products button{
+    width: 90%;
+    margin: 0;
+  }
+  .article div{
+    width: 90%;
+  }
+}
+#join{
+  background-color: #f9f9f9;
+}
+#join h2{
+  margin-bottom: 10px;
+}
+.text{
+  width: 60%;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+#join button{
+  margin: 0;
+  padding: 0;
+  margin-left: 12%;
+  margin-top: 10%;
+  background-color: #f6f6f6;
+  color: black;
+}
+#email-sign-up{
+  background-image: none;
+  background-color: #f9f9f9;
+  height: 450px;
+}
+#email-sign-up div{
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 70px;
+}
+#email-sign-up h2{
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+#email-sign-up p{
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+#email-sign-up input{
+  height: 50px;
+  width: 30%;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: #f9f9f9 ;
+}
+#email-sign-up button{
+  width: 10%;
+  height: 50px;
+  position: relative;
+  right: 15px;
+}
+#contact-div h2 a{
+  color: white;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .text{
+    width: 90%;
+    margin: 10px;
+  }
+  #mail-sign-up button{
+    width: 95%;
+    padding: 0;
+    margin-left: 7%;
+  }
+  #email-sign-up h2{
+    width: 95%;
+    font-size: 22px;
+    margin: 10px;
+    padding: 0;
+  }
+  #email-sign-up p{
+    width: 90%;
+  }
+  #email-sign-up input{
+    width: 50%;
+  }
+  #email-sign-up button{
+    width: 20%;
+  }
+}

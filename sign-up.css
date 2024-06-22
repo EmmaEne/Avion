@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: candara;
+  font-weight: normal;
+  font-size: 17px;
+  display: flexbox;
+}
+section{
+  width: 100%;
+  height: 99.4vh;
+  display: flex;
+}
+section div{
+  height: 100%;
+}
+#sign-up-div{
+  width: 40%;
+}
+h2{
+  margin-top: 7%;
+  margin-left: 15%;
+  font-size: 23px;
+}
+.form{
+  width: 70%;
+  height: 75%;
+  margin: 5% auto;
+}
+h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+input,.btn{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  outline: none;
+}
+input{
+  background-color: white;
+  border: 0.5px solid rgb(156, 154, 154);
+  padding-left: 45px;
+}
+input::placeholder{
+  font-size: 15px;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+#login{
+  background-color: rgba(9, 9, 51, 0.847);
+  color: white;
+}
+#forgot-pswd{
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#lines{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+}
+#lines div{
+  width: 50%;
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(156, 154, 154);
+}
+.social-buttons{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.socials{
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid rgb(156, 154, 154);
+  padding-bottom: 4px;
+}
+.socials img{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+p{
+  text-align: center;
+}
+.icon{
+  width: 23px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+}
+#image{
+  width: 60%;
+  background: url('./images/Product Image.png') no-repeat center bottom/cover;
+}
+#image img{
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  section{
+    height: 100vh;
+    border: solid;
+    flex-direction: column-reverse;
+  }
+  #sign-up-div, #image{
+    width: 100%;
+  }
+  #image{
+    height: 30%;
+  }
+  #sign-up-div{
+    height: 70%;
+  }
+  .form{
+    width: 92%;
+    height: 75%;
+  }
+  h2{
+    margin-left: 20px;
+  }
+}
